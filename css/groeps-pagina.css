@@ -1,0 +1,43 @@
+/* DIT IS DE STIJL VOOR DE GROEPS PAGINA */
+
+body {
+	height: 100vh;
+	font-family: Arial;
+	background-image: url(http://codingbasics.net/wp-content/uploads/2014/04/computer-programming.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+.darken {
+	width: 100%;
+	height: 100vh;
+	// background-image: linear-gradient(to bottom right,#002f4b,#777DA7);
+	opacity: 1; 
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.title {
+	height: 300px;
+}
+
+h1 {
+	margin: 0;
+	padding-top: 100px;
+	font-size: 50px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 30px;
+	color: #fff;
+}
+
+a:hover {
+	color: #777DA7;	
+}
